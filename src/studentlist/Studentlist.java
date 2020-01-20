@@ -8,6 +8,7 @@ package studentlist;
 /**
  * printing student details
  * @author srinivsi
+ date 20-01-2000
  */
 public class Studentlist
 {
@@ -31,8 +32,9 @@ public class Studentlist
          for (int i=0;i<list.length;i++)
          {
             // System.out.println(list[i]);
-        System.out.println(list[i].getName()+ " " + list[i].getAge());
-       }
+           System.out.println(list[i].getName()+ " " + list[i].getAge());
+        }
+          
     }
     
 }
