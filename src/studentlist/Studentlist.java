@@ -9,6 +9,8 @@ package studentlist;
  * printing student details
  * @author srinivsi
  date 20-01-2000
+ Welcome
+ * 
  */
 public class Studentlist
 {
