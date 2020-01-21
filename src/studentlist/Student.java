@@ -13,6 +13,8 @@ public class Student
 {
     private String name;
     private int age;
+    private int std_id;
+    
 
     /**
      * @return the name
@@ -40,6 +42,20 @@ public class Student
      */
     public void setAge(int age) {
         this.age = age;
+    }
+
+    /**
+     * @return the std_id
+     */
+    public int getStd_id() {
+        return std_id;
+    }
+
+    /**
+     * @param std_id the std_id to set
+     */
+    public void setStd_id(int std_id) {
+        this.std_id = std_id;
     }
     
 }
